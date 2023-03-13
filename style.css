@@ -1,0 +1,274 @@
+.main{
+    width: 100%;
+    height: 2550px;
+    background: #d3f492;
+    color:rgb(207, 200, 200);
+}
+.buttom{
+    /* text-align: center; */
+}
+.header{
+    color: rgb(94, 244, 24);
+    /* text-align: center; */
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+}
+.image{
+    width: 100%;
+    height: 1000px;
+}
+.navebar{
+    font-style: italic;
+}
+.navebar{
+    display: inline;
+    margin: 0% auto;
+    padding: 23px;
+    border: 2px black;
+    color: rgb(52, 149, 235);
+    margin-left: 500px;
+    
+
+}
+.navebar a:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5px;
+}
+.add{
+    width: 100%;
+    height: 150px;
+    /* background: #edb0b0; */
+    display: flex;
+    margin: 10px;
+
+
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+    margin-top: auto;
+    display: inline block;
+
+}
+.navebar a{
+    padding: 7px 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.tittle{
+    text-align: center;
+    color: rgb(49, 238, 32);
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.button a{
+     margin: 0% auto;
+     border: 2px solid black; 
+align-items: center;
+     text-align: center; 
+ } 
+.banner img{
+    width: 100%;
+    height: 700px;
+}
+.box1{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+}
+.box1 img{
+width: 300px;
+height: 300px;
+margin: 2% auto;
+} 
+.box2{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+}
+.box2 img{
+    width: 300px;
+    height: 300px;
+    margin: 2% auto;
+}
+.box3{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+    margin: 0% auto;
+}
+.box3 img{
+    width: 300px;
+    height: 300px;
+    margin: 2% auto;
+}
+.box4{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+}
+.box4 img{
+    width: 300px;
+    height: 300px;
+    margin: 2% auto; 
+}
+.all{
+    display: flex;
+    gap: 20px ;
+    background: #afe8af;
+    width: 100%;
+}
+.box5{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+}
+.box5 img{
+    width: 300px;
+    height: 300px;
+    margin: 2% auto;
+}
+.box6{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+}
+.box6 img{
+    width: 300px;
+    height: 300px;
+    margin: 2% auto;
+}
+.box7{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+}
+.box7 img{
+    width: 300px;
+    height: 300px;
+    margin: 2% auto;
+}
+.box8{
+    width: 25%;
+    height: 450px;
+    border: 1px solid black;
+    background: #58f362;
+    color: aliceblue;
+    /* padding: 2px auto; */
+}
+.box8 img{
+    width: 300px;
+    height: 300px;
+    margin: 2% auto;
+}
+.ali{
+    display: flex;
+    gap: 35px;
+    background: #a0f78e;
+    width: 100%;
+}
+.headerf{
+    background: #86ff88;
+    height: 600px;
+    margin: 0% auto;
+text-align: center;
+}
+.headerf img{
+width: 500px;
+height: 300px;
+/* border: 1px solid rgb(12, 12, 12); */
+gap: 20px;
+
+}
+.ab{
+    width: 40%;
+    height: 120px;
+    color: rgb(255, 255, 255);
+}
+.an{
+    width: 40%;
+    height: 120px;
+    color: rgb(255, 255, 255);
+    display: inline-block; 
+}
+.an img{
+    width: 500px;
+    height: 300px;
+    /* padding-right: 100%; */
+    display: inline-block;
+}
+.headerf{
+    /* display: flex; */
+}
+.last{
+    text-align: center;
+    padding-bottom: 5%;
+    background: #df8f8f;
+}
+.logo img{
+    width: 70px;
+    height: 60px;
+    margin-left: 22px;
+    margin-top: 70px;
+}
+.aa img{
+    width: 70px;
+    height: 60px;
+    margin-left: 22px;
+    margin-top: 70px;
+}
+.ss img{
+    width: 70px;
+    height: 60px;
+    margin-left: 22px;
+    margin-top: 70px;
+}
+.dd img{
+    width: 70px;
+    height: 60px;
+    margin-left: 22px;
+    margin-top: 70px;  
+}
+.owais{
+    display: flex;
+    text-align: center;
+    margin: 8px;
+    float: right;
+}
+.add{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.image{
+    width: 50%;
+    flex: 1 1 40rem;
+}
+.paragraph{
+    /* width: 50%; */
+    flex: 1 1 40rem;
+}
+.add{
+    background: #565353;
+    width: 100%;
+    height: 575px;
+}
