@@ -1,42 +1,52 @@
-.main{
-    width: 100%;
-    height: 2550px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    @media (max-width: 480px) and
+    /* width: 100%; */
+    height: auto;
     background: #d3f492;
-    color:rgb(207, 200, 200);
+    color: rgb(207, 200, 200);
 }
-.buttom{
-    /* text-align: center; */
-}
-.header{
+
+.header {
     color: rgb(94, 244, 24);
     /* text-align: center; */
-    width: 90%;
-    height: 30px;
+    width: 300px;
+    height: auto;
     margin-top: 20px;
 }
-.image{
-    width: 100%;
-    height: 1000px;
+
+.image {
+    width: 300px;
+    height: auto;
 }
-.navebar{
+
+.navebar {
     font-style: italic;
 }
-.navebar{
+
+.navebar {
     display: inline;
     margin: 0% auto;
-    padding: 23px;
+    /* padding: 1px; */
+    text-decoration: none;
     border: 2px black;
     color: rgb(52, 149, 235);
     margin-left: 500px;
-    
+
 
 }
-.navebar a:hover{
+
+.navebar a:hover {
     border: 2px solid black;
     border-radius: 4px;
     margin: 5px;
 }
-.add{
+
+.add {
     width: 100%;
     height: 150px;
     /* background: #edb0b0; */
@@ -45,230 +55,285 @@
 
 
 }
-.logo img{
+
+.logo img {
     width: 200px;
     height: 100px;
     margin-top: auto;
     display: inline block;
 
 }
-.navebar a{
+
+.navebar{
+    width: 1000px;
     padding: 7px 20px;
     margin-left: 10px;
     margin-top: 50px;
 }
-.tittle{
+
+.tittle {
     text-align: center;
     color: rgb(49, 238, 32);
 }
-.button{
+
+.button {
     width: 100%;
     text-align: center;
 }
-.button a{
-     margin: 0% auto;
-     border: 2px solid black; 
-align-items: center;
-     text-align: center; 
- } 
-.banner img{
+
+.button a {
+    margin: 0% auto;
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+}
+
+.banner img {
     width: 100%;
     height: 700px;
 }
-.box1{
-    width: 25%;
-    height: 450px;
+
+.box1 {
+    width: 250px;
+    height: auto;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
 }
-.box1 img{
-width: 300px;
-height: 300px;
-margin: 2% auto;
-} 
-.box2{
-    width: 25%;
-    height: 450px;
+
+.box1 img {
+    width: 250px;
+    height: 300px;
+}
+
+.box2 {
+    width: 250px;
+    height: auto;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
 }
-.box2 img{
-    width: 300px;
+
+.box2 img {
+    width: 250px;
     height: 300px;
     margin: 2% auto;
 }
-.box3{
-    width: 25%;
-    height: 450px;
+
+.box3 {
+    width: 250px;
+    height: auto;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
-    margin: 0% auto;
 }
-.box3 img{
-    width: 300px;
+
+.box3 img {
+    width: 250px;
     height: 300px;
     margin: 2% auto;
 }
-.box4{
-    width: 25%;
-    height: 450px;
+
+.box4 {
+    width: 250px;
+    height: auto;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
 }
-.box4 img{
-    width: 300px;
+
+.box4 img {
+    width: 250px;
     height: 300px;
-    margin: 2% auto; 
 }
-.all{
+
+.all {
     display: flex;
-    gap: 20px ;
-    background: #afe8af;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    background: #a0f78e;
     width: 100%;
 }
-.box5{
-    width: 25%;
-    height: 450px;
+
+.box5 {
+    width: 250px;
+    height: auto;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
 }
-.box5 img{
-    width: 300px;
+
+.box5 img {
+    width: 250px;
     height: 300px;
     margin: 2% auto;
 }
-.box6{
-    width: 25%;
-    height: 450px;
+
+.box6 {
+    width: 250px;
+    height: auto;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
 }
-.box6 img{
-    width: 300px;
+
+.box6 img {
+    width: 250px;
     height: 300px;
     margin: 2% auto;
 }
-.box7{
-    width: 25%;
-    height: 450px;
+
+.box7 {
+    width: 250px;
+    height: auto;
+    ;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
 }
-.box7 img{
+
+.box7 img {
     width: 300px;
     height: 300px;
     margin: 2% auto;
 }
-.box8{
-    width: 25%;
-    height: 450px;
+
+.box8 {
+    width: 250px;
+    height: auto;
     border: 1px solid black;
     background: #58f362;
     color: aliceblue;
     /* padding: 2px auto; */
 }
-.box8 img{
-    width: 300px;
+
+.box8 img {
+    width: 250px;
     height: 300px;
     margin: 2% auto;
 }
-.ali{
+
+.ali {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 35px;
     background: #a0f78e;
     width: 100%;
 }
-.headerf{
+
+.headerf {
     background: #86ff88;
     height: 600px;
     margin: 0% auto;
-text-align: center;
+    text-align: center;
 }
-.headerf img{
-width: 500px;
-height: 300px;
-/* border: 1px solid rgb(12, 12, 12); */
-gap: 20px;
+
+.headerf img {
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid rgb(12, 12, 12); */
+    gap: 20px;
 
 }
-.ab{
+
+.ab {
     width: 40%;
     height: 120px;
     color: rgb(255, 255, 255);
 }
-.an{
+
+.an {
     width: 40%;
     height: 120px;
     color: rgb(255, 255, 255);
-    display: inline-block; 
+    display: inline-block;
 }
-.an img{
+
+.an img {
     width: 500px;
     height: 300px;
     /* padding-right: 100%; */
     display: inline-block;
 }
-.headerf{
+
+.headerf {
     /* display: flex; */
 }
-.last{
+
+.last {
     text-align: center;
     padding-bottom: 5%;
     background: #df8f8f;
 }
-.logo img{
-    width: 70px;
+
+.logo img {
+    width: 70px !important;
     height: 60px;
     margin-left: 22px;
     margin-top: 70px;
 }
-.aa img{
-    width: 70px;
+
+.aa img {
+    width: 70px !important;
     height: 60px;
     margin-left: 22px;
     margin-top: 70px;
 }
-.ss img{
-    width: 70px;
+
+.ss img {
+    width: 70px !important;
     height: 60px;
     margin-left: 22px;
     margin-top: 70px;
 }
-.dd img{
-    width: 70px;
+
+.dd img {
+    width: 70px !important;
     height: 60px;
     margin-left: 22px;
-    margin-top: 70px;  
+    margin-top: 70px;
 }
-.owais{
+
+.owais {
     display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin: 8px;
+    width: 100%;
     float: right;
 }
-.add{
+
+.add {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 
 }
-.image{
-    width: 50%;
-    flex: 1 1 40rem;
+
+.image img {
+    width: 300px;
+    /* flex: 1 1 40rem; */
 }
-.paragraph{
-    /* width: 50%; */
-    flex: 1 1 40rem;
+
+.paragraph {
+    width: auto;
+    height: auto;
+    /* flex: 1 1 40rem; */
 }
-.add{
+
+.add {
     background: #565353;
     width: 100%;
     height: 575px;
+}
+@media (max-width: 390px) {
+.ad{
+    width: 100px;
+    height: auto;
+}   
 }
